@@ -1,1 +1,0 @@
-# QFG3-Fan-Patch
