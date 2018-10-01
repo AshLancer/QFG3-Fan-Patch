@@ -45,7 +45,8 @@ To uninstall, just delete all of my patch files and restore the backup.
 - You can now modify your Honor stat with Uhura at the Simbani Village after the peace conference.
 - You can now leave the Monkey Village before crossing the waterfall and go have random encounters. Manu will be waiting patiently for you to come back!
 - The rooms with Reeshaka and the endgame have been enhanced. I'd prefer to keep these a secret... :3
-- Wizards and Thieves no longer have the opportunity to rescue the baby meerbat.
+- New ways to die! (see below)
+- Wizards and Thieves will no longer have the opportunity to rescue the baby meerbat.
 - The log will no longer spawn during the ring of thorns challenge if the player can get the ring.
 - You must now learn about the Lost City from Manu before you can convince him to take you there.
 - Fighters and Paladins will now gain points for creating a vine rope, rather than from using it to cross.
@@ -81,11 +82,11 @@ To uninstall, just delete all of my patch files and restore the backup.
 - Restored a cut event where you could sleep at the Monkey Village.
 - Restored several deaths and missing or unused death messages, specifically:
 
-  * Cast Summon Staff and then Trigger to blow yourself up
   * Steal from the Drummer too many times and get arrested
   * Anger the Guardian of the World Tree until it throws you out
   * Get killed by an Apeman on one of the Lost City screens
   * Get killed by the Demon in the Lost City
+  * [Wizard] Cast Summon Staff and then Trigger to blow yourself up
   * [Thief] Wait for the leopard to finish eating and then let him jump up and kill you
   * [Thief] Cross the rope at the waterfall with low agility on Medium or High Skill level 
   * Starve to death (new animation!)
@@ -98,7 +99,7 @@ To uninstall, just delete all of my patch files and restore the backup.
 - And over 200 other bug fixes and restorations!
 
 
-*Note: A complete list of fixes (for NERDS) has been included in the accompanying readme.
+*Note: A complete list of changes (for NERDS) has been included in the accompanying readme.
 
 
 ### Known Issues:
@@ -123,12 +124,24 @@ ScummVM uses a completely different interpreter from the original SCI, and as a 
 **A** - The Fighter now shares all points with the Paladin, although he does NOT need to become a Paladin in order to reach 500, nor does the Fighter-turned-Paladin need any of his abilities in order to reach 550.
 
 
+**Q** - I can't seem to find Khatib the Survivor at the inn for those last few points.
+
+**A** - Getting Khatib to spawn can be a bit of a nuisance. The only requirement seems to be that you must have eaten at the inn at least ONCE (indicated by the topic "Restaurant" disappearing from Janna's dialogue tree). You'll also need to enter the inn at a specific time of night. I've included a screenshot of the moon in the zip to help people who are having trouble. If you're successful, you'll see two empty seats at the middle table when you enter. Also, keep in mind that Khatib will NOT spawn on the same night that you've had your first meal there.
+
+I've found the best way to do this is to run around the savanna just outside of Tarna until it starts to get dark. Keep moving until the screen gets completely dark and then immediately enter the city. Try and visit the inn now. If the two seats still aren't open, exit the inn, rest for an hour, and enter again. You should trigger the encounter.
+
+
 **Q** - I've done everything but the Leopardman Prisoner just won't show up!
 
 **A** - 
 * [Fighter/Paladin] Keep practicing throwing spears at the target until Uhura shows up, then challenge her.
 * [Wizard] Talk to the Guardian to find the Blue Orchid and complete the quest for creating your staff.
 * [Thief] Reach the far eastern screen with the big waterfall.
+
+
+**Q** - Help! I gave Salim all the ingredients but he's not making the Dispel Potion!!
+
+**A** - This is a very old bug that was patched in the Anthology version. You're most likely running an older copy of QFG3 or the resource file that came packaged with your game is out of date. I've extracted this script from the Collection CD for people who need it. Check and make sure you've installed 290.scr and 290.hep from the folder named "NRS and Anthology Fixes". You'll need to go back to a point before you gave Salim the first item in order for the new script to work.
 
 
 **Q** - Help! The guard won't let me back in to see the Laibon or the Laibon won't take my dinosaur horn and I can't continue. I thought you fixed everything!!!
@@ -217,7 +230,10 @@ without which, NONE of this would've been possible.
 NewRisingSun
 who developed the initial speed fixes that allowed us to keep playing these games on modern systems. You rock, dude!!
 
-Google, various Let's Plays and speedruns on Youtube, and the forums and communities at Quest for More Glory, Sierra Help Pages, ScummVM, GoG, and Steam. For feeding me plenty of bug reports, research material, and rumors to go on.
+Sierra Help Pages
+for their extraordinary effort in continuing to maintain support for these titles.
+
+Google, various Let's Plays and speedruns on Youtube, and the forums and communities at Quest for More Glory, SHP, ScummVM, GoG, and Steam. For feeding me plenty of bug reports, research material, and rumors to go on.
 
 Quest for Glory Omnipedia
 providing a dump of the transcripts and additional background info.
@@ -240,7 +256,7 @@ My two younger brothers
 
 2 cats and a bird
 
-Sierra On-Line
+Sierra On-Line,
 Ken and Roberta Williams
 for making some of the greatest PC games on the planet!
 
@@ -254,4 +270,6 @@ dedicated to the players
 
 ### Version Updates:
 
-Version 1.2A - 8/22/2018 - Initial release.
+10/01/2018 - Included a script from the Collection CD for people who were having problems getting the dispel potions from Salim. Included a pic of the moon to help people find Khatib. Minor updates to the readme. No programming changes.
+
+8/22/2018 - Version 1.2A - Initial release.
