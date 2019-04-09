@@ -74,7 +74,7 @@ To uninstall, just delete all of my patch files and restore the backup.
 - Fixed a script error where Fighters and Paladins couldn't tell Rakeesh about the Initiation and missed out on 3 points.
 - Fixed bugs and annoying sound loops during the Shaman duel.
 - Fixed bugs and missing sounds when stealing the Drum of Magic and the Spear of Death.
-- Fixes spellcasting issues for every single room in the game.
+- Fixed spellcasting issues for every single room in the game.
 - Fixed multiple problems in the endgame scripts for each class.
 - Fixed several lockups caused by faulty scripting.
 - Fixed several faulty triggers.
@@ -93,7 +93,7 @@ To uninstall, just delete all of my patch files and restore the backup.
   * Get killed by the Demon in the Lost City
   * **Wizard** Cast Summon Staff and then Trigger to blow yourself up
   * **Thief** Wait for the leopard to finish eating and then let him jump up and kill you
-  * **Thief** Cross the rope at the waterfall with low agility on Medium or High Skill level 
+  * **Thief** Cross the rope at the waterfall with low agility on Medium or High difficulty
   * Starve to death (new animation!)
 
 - Restored the proper icon for Soulforge in your inventory.
