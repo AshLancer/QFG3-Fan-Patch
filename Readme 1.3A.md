@@ -149,11 +149,6 @@ I've found the best way to do this is to run around the savanna just outside of 
 * **Thief** Reach the far eastern screen with the big waterfall.
 
 
-**Q** - Help! I gave Salim all the ingredients but he's not making the Dispel Potion!!
-
-**A** - This is a very old bug that was patched in the Anthology version. You're most likely running an older copy of QFG3 or the resource file that came packaged with your game is out of date. I've extracted this script from the Collection CD for people who need it. Check and make sure you've installed 290.scr and 290.hep from the folder named "NRS and Anthology Fixes". You'll need to go back to a point before you gave Salim the first item in order for the new script to work.
-
-
 **Q** - Help! The guard won't let me back in to see the Laibon or the Laibon won't take my dinosaur horn and I can't continue. I thought you fixed everything!!!
 
 **A** - The triggers for the Laibon starting the initiation are still a bit wonky. Here is a method that always works for me:
@@ -210,7 +205,7 @@ If you've satisfied all the requirements, you'll be treated to a cutscene just b
 
 **Q** - Are you planning on making patches for the other games in the series?
 
-**A** - Absolutely! I'm currently working on a QFG4 patch as we speak. Expect it before the year ends... :3
+**A** - Absolutely! I'm currently working on a QFG4 patch as we speak. Expect it ~~before the year ends...~~ *by Halloween 2019!* :3
 
 
 ### Legal:
@@ -287,6 +282,8 @@ dedicated to the players
 
 
 ### Version Updates:
+
+8/18/2019 - Version 1.3.1A - Fixed the *Salim forgets Dispel Potion ingredients* bug. Removed it from the FAQ.
 
 4/06/2019 - Version 1.3A - The spellcasting update! Fixed spell scripts for every single room in the game. Repaired keyboard controls and restored missing points for the initiation challenge. Additional bugfixes and enhancements. Minor spelling corrections.
 
