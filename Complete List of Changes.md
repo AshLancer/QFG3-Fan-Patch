@@ -1,4 +1,28 @@
+[Changes in Version 1.3A](#changes-in-version-13a)
+
+
 [Changes in Version 1.2A](#changes-in-version-12a)
+
+
+# Changes in Version 1.3.1A:
+
+
+### 19:
+
+- Version number.
+
+
+### 290:
+
+- Fixed the dreaded "Salim forgets the Dispel Potion ingredients" bug. A very rare dead end could occur when delivering the ingredients for the dispel potion one-at-a-time to Salim. He would sometimes "forget" that he received them at all and refuse to make the potion or accept any more copies of ingredients. This would prevent the player from continuing the game, as the Dispel Potion is a plot-critical item.
+
+
+### 380:
+
+- The Paladin will no longer play a Sense Danger message if there are no vines in the room.
+
+
+
 
 # Changes in Version 1.3A:
 
